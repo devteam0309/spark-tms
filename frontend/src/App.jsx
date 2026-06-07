@@ -16,6 +16,7 @@ import ProvinceManagement from './pages/ProvinceManagement';
 import TargetSectorManagement from './pages/TargetSectorManagement';
 import Reports from './pages/Reports';
 import Profile from './pages/Profile';
+import Reference from './pages/Reference';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -42,6 +43,8 @@ const router = createBrowserRouter(
         <Route path="target-sectors" element={<PrivateRoute role="spark_focal"><TargetSectorManagement /></PrivateRoute>} />
         <Route path="reports" element={<Reports />} />
         <Route path="profile" element={<Profile />} />
+        {/* Not in the sidebar — reachable only by typing the URL directly */}
+        <Route path="ref" element={<Reference />} />
       </Route>
 
       <Route path="*" element={<Navigate to="/dashboard" replace />} />
