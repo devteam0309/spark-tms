@@ -3,6 +3,7 @@ import { useAuth } from '../context/AuthContext';
 import {
   HiHome, HiClipboardList, HiCheckCircle, HiUsers,
   HiOfficeBuilding, HiChartBar, HiUser, HiLightningBolt, HiTag,
+  HiBookOpen,
 } from 'react-icons/hi';
 
 const SparkNavItems = [
@@ -13,6 +14,7 @@ const SparkNavItems = [
   { to: '/users', icon: HiUsers, label: 'User Management' },
   { to: '/provinces', icon: HiOfficeBuilding, label: 'Province Management' },
   { to: '/target-sectors', icon: HiTag, label: 'Target Sector Management' },
+  { to: '/ref', icon: HiBookOpen, label: 'Reference' },
   { to: '/profile', icon: HiUser, label: 'My Profile' },
 ];
 
@@ -20,6 +22,7 @@ const ProvinceNavItems = [
   { to: '/dashboard', icon: HiHome, label: 'Dashboard' },
   { to: '/trainings', icon: HiClipboardList, label: 'My Trainings' },
   { to: '/reports', icon: HiChartBar, label: 'Reports & Exports' },
+  { to: '/ref', icon: HiBookOpen, label: 'Reference' },
   { to: '/profile', icon: HiUser, label: 'My Profile' },
 ];
 

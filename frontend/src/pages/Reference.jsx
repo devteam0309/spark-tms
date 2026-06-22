@@ -57,8 +57,8 @@ export default function Reference() {
         <h1 className="page-title">Reference & Tutorials</h1>
         <p className="page-subtitle">
           Everything about SPARK TMS in one place — how it works, what each role can do, and how
-          to get things done. This page isn't on the sidebar — bookmark{' '}
-          <code className="px-1 py-0.5 bg-gray-100 rounded text-xs">/ref</code> to find it again.
+          to get things done. Open it any time from{' '}
+          <span className="font-medium">Reference</span> in the sidebar.
         </p>
       </div>
 
